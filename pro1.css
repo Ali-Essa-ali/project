@@ -1,0 +1,476 @@
+body{
+      min-height: 2000px;
+   
+}
+*{
+    box-sizing: border-box;
+}
+
+/*start nav*/
+
+/* start upper bar*/
+
+
+.upper-bar {
+    background-color: #08526d;
+    padding: 10px;
+    color: #cccccc;
+
+}
+.upper-bar .aa span{
+    margin-left: 10px;
+}
+.upper-bar .aaa{
+    
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.upper-bar .aa{
+    margin-bottom:7px;
+    margin-top:7px;
+    width: 100%;
+}
+.upper-bar .cccc{
+    
+}
+
+.upper-bar .aaa span:last-of-type{
+    margin-left: 10px;
+    border: 1px solid red;
+    border-radius: 2px;
+    padding: 4px;
+ 
+}
+
+
+.upper-bar i{
+    color: #ffffff;
+}
+
+.upper-bar .aa span:hover,
+.upper-bar .aaa span:hover,
+.upper-bar .aaaa:hover,
+.upper-bar .aaaaa:hover
+{
+    color: #ffffff;
+}
+
+@media(max-width:575px)
+{
+.upper-bar .cccc{
+
+   
+    margin-left: 10px;
+}
+
+.upper-bar .aaa span:last-of-type{
+    border: none;
+}
+
+.slider .carousel-inner h1{
+    left: 20px;
+}
+
+
+
+
+}
+/*end upper car*/
+
+
+
+/*start of navbar*/
+nav{
+    background-color: #ffffff;
+}
+
+.navbar-light .navbar-brand span:first-child{
+color: #08526d;
+font-size:40px;
+font-weight:bold;
+}
+.navbar-light .navbar-brand span:last-child{
+    color: #ec1c23;
+    font-size:40px;
+    font-weight:normal;
+}
+
+.navbar-light .navbar-nav .nav-link{
+
+    color: #08526d;
+    text-transform: uppercase;
+    margin-left: 16px;
+    font-size: 20px;
+
+}
+ .navbar-light .navbar-nav .active > .nav-link{
+    color: #ec1c23;
+}
+    
+
+
+
+ /*satrt header*/
+.header{
+    
+    background-image: url(../photos/karsten.jpg);
+    background-size: cover;
+    position: relative;
+    min-height:500px;
+   
+}
+
+.header h1{
+ padding-top: 300px;
+ z-index: 10;
+ color: #ffffff;
+ padding-bottom:20px;
+ font-size: 50px;
+ font-weight:350;
+
+}
+
+.header p{
+    width:50%;
+    margin: auto;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+/*end header*/
+
+
+/* start SEM TURPIS AMET SEMPER */
+   .sem{
+       padding-top: 80px;
+       background-color: #dddddd;
+       min-height: 700px;
+       padding-bottom: 60px;
+   }
+
+   .sem h2 {
+       padding-bottom: 15px;
+       color: #666565;
+   }
+
+   .sem p{
+    color: #666565; 
+   }
+
+   .sem .seem{
+       background-color: #ffffff;
+       min-height: 350px;
+       margin-right:20px;
+       margin-left:20px;
+      min-width:300px;
+      
+       margin:15px 30px 10px;
+   }
+
+   .sem .seem i{
+       margin-top: 50px;
+       margin-bottom:25px;
+       color: #ce1b28;
+   }
+
+   .sem .seem h4{
+       padding-bottom: 25px;
+       font-size:22px;
+       color: #817e7e;
+
+   }
+
+   .sem .seem p{
+       width: 90%;
+       margin: auto;
+       color: #838080;
+       font-size:16px;
+   }
+
+
+
+
+
+
+
+/* end SEM TURPIS AMET SEMPER */
+
+
+/*start CURABITUR */
+.cur{
+    background-attachment: fixed;
+    background-image: url(../photos/johan.jpg);
+    background-size: cover;
+    min-height: 600px;
+    color: #ffffff;
+}
+.cur h2{
+    padding-top: 230px;
+    padding-bottom: 30px;
+    font-weight: 400;
+
+
+}
+
+.cur p{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+/*end CURABITUR */
+
+/*start the FAUCIBUS CONSEQUAT LOREM*/
+.fau {
+    min-height:650px;
+    background-color: #dddddd;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.fau h2{
+    padding-bottom: 35px;
+    color: #504e4e;
+    font-size: 35px;
+    font-weight: 400;
+
+}
+.fau p{
+    width: 80%;
+    margin: auto;
+  
+    color: #4b4b4b;
+}
+.fau .faau {
+    min-width:280px;
+  
+    min-height: 300px;
+    max-height:450px;
+    margin :10px 20px;
+    background-color: #ffffff;
+
+}
+.fau .mm{
+    margin-bottom: 20px;
+}
+.fau .hh{
+    width:90%;
+    border-left: 7px solid #dddddd;
+    margin-top: 40px;
+    margin: 40px auto 20px;
+    padding:30px;
+    text-align: left;
+}
+.fau .faau p{
+    display: inline;
+   
+    padding-left: 10px;
+}
+.fau .faau img{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    display: inline;
+    margin-bottom:30px;
+    margin-right: 10px;
+    
+}
+.fau span{
+    color: red;
+}
+.fau .nn{
+    margin-left: 20px;
+}
+.fau .media .media-body{
+  margin-top: 25px;
+  margin-left:0px;
+}
+
+
+/*end the FAUCIBUS CONSEQUAT LOREM*/
+
+/*start footer*/
+.footer{
+    padding-top: 80px;
+    background-color: rgb(46, 46, 46);
+    color: #817f7f;
+    padding-bottom: 40px;
+}
+.footer h3{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.footer div{
+    margin-bottom: 20px;
+}
+.footer .f2 li{
+    padding-bottom: 12px;
+    border-bottom: 1px solid #dddddd;
+    padding-top: 7px;
+
+}
+.footer .f1 p{
+    width:95%;
+    color: #817f7f;
+
+}
+.footer .f2 h4,
+.footer .f3 h4{
+    font-size: 18px;
+}
+
+.footer .f3 i{
+    margin-left: 10px;
+    margin-right: 15px;
+ 
+}
+
+.footer h4{
+    margin-bottom: 20px;
+}
+
+.footer a{
+    color: #817f7f;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+
+.footer a:hover{
+    color: red;
+}
+.footer .vvv{
+    margin-top: 40px;
+}
+.footer .vvv::before{
+    content: '';
+     display: block;
+     width:100%;
+     height: 2px;
+     background-color: #dddddd;
+     margin-bottom: 20px;
+}
+
+@media(max-width:576px){
+
+    .fau h2{
+      
+        font-size: 25px;
+        font-weight: 400;
+    
+    }
+
+    .cur h2{
+        padding-top: 170px;
+       
+    
+    
+    }
+    .footer .f1 h3
+    
+    {
+    font-size: 18px;
+    font-weight: 600;
+    }
+
+
+    .aaa{
+        text-align: right;
+    }
+    .ddd{
+        width:300px;
+        right:-90%;
+    }
+    .nav .vv{
+        width: 100%;
+    }
+    .nav .aa{
+       font-size: 22px;
+    }
+    
+    .header p{
+        width:90%;
+    }
+    
+    .header h1{
+        padding-top: 200px;
+        font-size: 35px;
+        font-weight: 300;
+    }
+
+
+    .sem  h2{
+   
+        font-size:25px;
+        font-weight: 500;
+       
+ 
+    }
+    .sem .seem h4{
+       
+        font-size:20px;
+        
+ 
+    }
+
+    .cur h2{
+       font-size:25px;
+       font-weight: 600;
+       
+     
+    
+    
+    }
+    
+    .cur p{
+        width: 95%;
+        margin: auto;
+    }
+    
+    .footer .f2 li{
+        width: 70%;
+    }
+    
+    
+    
+    
+    }
+
+    @media(max-width:678px)and(min-width:577px) {
+
+        .header p{
+            width:80%;
+        }
+
+       
+    }
+    
+    @media(max-width:960px)and(min-width:577px) {
+
+        .header p{
+
+            width:80%;
+        }
+
+
+        .fau p{
+            width: 90%;
+        }
+
+      
+    
+        
+    }
+    
+
+    @media(max-width:1200px)and(min-width:992px) {
+
+    .fau .faau:last-of-type{
+        max-width: 350px;
+        min-width: 350px;
+        min-height: 300px;
+    }
+
+    }

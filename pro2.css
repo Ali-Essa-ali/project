@@ -1,0 +1,301 @@
+body{
+min-height: 2000px;
+}
+
+
+
+/* start upper bar*/
+
+
+.upper-bar {
+    background-color: #08526d;
+    padding: 10px;
+    color: #cccccc;
+
+}
+.upper-bar .aa span{
+    margin-left: 10px;
+}
+.upper-bar .aaa{
+    
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.upper-bar .aa{
+    margin-bottom:7px;
+    margin-top:7px;
+    width: 100%;
+}
+.upper-bar .cccc{
+    
+}
+
+.upper-bar .aaa span:last-of-type{
+    margin-left: 10px;
+    border: 1px solid red;
+    border-radius: 2px;
+    padding: 4px;
+ 
+}
+
+
+.upper-bar i{
+    color: #ffffff;
+}
+
+.upper-bar .aa span:hover,
+.upper-bar .aaa span:hover,
+.upper-bar .aaaa:hover,
+.upper-bar .aaaaa:hover
+{
+    color: #ffffff;
+}
+
+@media(max-width:575px)
+{
+.upper-bar .cccc{
+
+   
+    margin-left: 10px;
+}
+
+.upper-bar .aaa span:last-of-type{
+    border: none;
+}
+
+.slider .carousel-inner h1{
+    left: 20px;
+}
+
+
+
+
+}
+/*end upper car*/
+
+/*start of navbar*/
+nav{
+    background-color: #ffffff;
+}
+
+.navbar-light .navbar-brand span:first-child{
+color: #08526d;
+font-size:40px;
+font-weight:bold;
+}
+.navbar-light .navbar-brand span:last-child{
+    color: #ec1c23;
+    font-size:40px;
+    font-weight:normal;
+}
+
+.navbar-light .navbar-nav .nav-link{
+
+    color: #08526d;
+    text-transform: uppercase;
+    margin-left: 16px;
+    font-size: 20px;
+
+}
+ .navbar-light .navbar-nav .active > .nav-link{
+    color: #ec1c23;
+}
+    
+
+
+
+/*end of nav bar*/
+
+/*start carsal*/
+
+.carousel{
+    position: relative;
+}
+
+.bb{
+    position: absolute;
+    display: block;
+    top: 20px; 
+    left: 15px;
+ color: #ffffff;
+    z-index: 10000;
+}
+
+.vv{
+    position: absolute;
+    top: 20px;
+    right:40px;
+    color: #ffffff;
+
+}
+.vv p{
+    display: inline-block;
+}
+.ddd{
+    position: fixed;
+    top: 0px !important;
+    right:-300px;
+    width:300px;
+    height:100%;
+    background-color: black;
+    color: #dddddd;
+    font-size: 30px;
+  
+    transition: all 0.5s ei;
+
+}
+.ddd li:first-child{
+    padding-top: 100px;
+}
+
+
+.ddd li{
+    border-bottom: 1px solid #ffffff;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    list-style: none;
+    margin-left: 15px;
+   
+}
+.ddd li a{
+    text-decoration: none;
+    color: #928f8f;
+
+}
+.ddd li a:hover{
+    color: #ffffff;
+    
+
+}
+.dd{
+    position: fixed;
+    top:12px;
+    right:-45px;
+    color: #c0bebe;
+  
+}
+
+.dd:hover{
+    
+    color: #ffffff;
+}
+
+
+.carousel-caption{
+    bottom: 270px;
+    color: #ffffff;
+}
+
+
+.carousel-caption h2{
+    font-size: 90px;
+    font-weight:450;
+}
+.carousel-caption p::after{
+    content: '';
+    display: block;
+    width: 250px;
+    height: 1px;
+    
+   background-color: #dddddd;
+   margin: auto;
+   margin-top: 15px;
+   
+}
+
+.carousel-indicators li{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+
+
+
+/*mag*/
+.mag{
+    padding-top: 80px;
+    min-height: 650px;
+    background-color: #dddddd;
+}
+.mag .ss{
+    background-color: #ffffff;
+    margin-right: 20px;
+    margin-left: 20px;
+    min-height: 500px;
+    margin-bottom: 50px;
+}
+
+.mag img{
+    width:100%;
+}
+.mag .col-lg{
+    padding-left: 0;
+    padding-right: 0;
+}
+.mag button{
+    margin-bottom: 80px;
+}
+
+.mag .ss p:first-of-type{
+    padding-top: 15px;
+    
+}
+
+
+/*mor*/
+
+.mor{
+    background-image: url(../photos/photo-1588264025576-a121a786e925.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 280px;
+    color: #0e0d0d;
+}
+.mor p{
+    padding-top: 100px;
+}
+
+/*morb*/
+
+.morb{
+    background-color: #dddddd;
+    padding-bottom: 60px;
+}
+.morb p{
+    padding-top: 50px;
+}
+
+.morb img{
+    width:90% ;
+    height: 320px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    border: 13px solid #ffffff;
+}
+.morb .col-lg{
+    padding-left: 0;
+    padding-right: 0;
+   
+}
+
+/*foo*/
+.foo {
+    padding: 40px 0 30px;
+    min-width: 200px;
+    background-color: rgb(19, 19, 19);
+    color: #c2bebe;
+}
+
+.foo li{
+    display: inline;
+}
+
+.foo i{
+    color: #ffffff;
+}
